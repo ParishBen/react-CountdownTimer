@@ -3,7 +3,7 @@ import './App.css';
 import Timer from './countdown';
 import CountDownTimer from './variationToTimer';
 function App() {
-  const hoursMinSecs = {hours:0, minutes: 10, seconds: 40}
+  const hoursMinSecs = {hours:0, minutes: 0, seconds: 10}
 
   return (
     <div className="App" style={{width:'100%', height:'100%'}} >
